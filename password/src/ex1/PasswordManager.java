@@ -39,7 +39,7 @@ public class PasswordManager {
             System.out.println("1. 加密");
             System.out.println("2. 解密");
             System.out.println("3. 退出");
-            System.out.print("请选择功能：");
+            System.out.print("请选择功能：");//选择功能序号
             int choice = scanner.nextInt();
 
             switch (choice) {
